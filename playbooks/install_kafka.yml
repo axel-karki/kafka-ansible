@@ -1,0 +1,5 @@
+- name: Install Apache Kafka with Zookeeper
+  hosts: kafka
+  become: yes
+  roles:
+    - kafka
