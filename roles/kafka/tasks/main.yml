@@ -3,6 +3,7 @@
     name:
       - wget
       - tar
+      - gnupg
     update_cache: yes
     state: present
 
